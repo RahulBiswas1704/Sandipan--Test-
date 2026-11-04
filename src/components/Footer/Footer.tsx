@@ -17,8 +17,25 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="flex items-center gap-2 mb-1">
-              <div className="w-6 h-6 rounded bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center text-white">
-                <Zap className="w-3.5 h-3.5" />
+              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#141B2D] to-[#08090B] border border-blue-500/40 p-1 flex items-center justify-center text-white shadow-sm">
+                <svg viewBox="0 0 64 64" className="w-full h-full" fill="none">
+                  <path 
+                    d="M 44 18 H 22 C 18 18 15 21 15 25 C 15 29 18 32 23 33 L 41 36 C 46 37 49 40 49 44 C 49 48 46 51 42 51 H 20" 
+                    stroke="#38BDF8" 
+                    strokeWidth="6" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                  />
+                  <path 
+                    d="M 36 21 L 24 37 H 34 L 28 47" 
+                    stroke="#FFFFFF" 
+                    strokeWidth="2.5" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                  />
+                  <circle cx="44" cy="18" r="3" fill="#22D3EE"/>
+                  <circle cx="20" cy="51" r="3" fill="#3B82F6"/>
+                </svg>
               </div>
               <span className="font-display text-2xl text-white tracking-wider">
                 SANDIPAN

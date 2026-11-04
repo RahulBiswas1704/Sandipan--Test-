@@ -95,8 +95,25 @@ export default function Navbar({
             className="flex items-center gap-2 group text-left cursor-pointer"
             aria-label="Scroll to top / Home"
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:shadow-[0_0_20px_rgba(34,211,238,0.7)] transition-all">
-              <Zap className="w-4 h-4 text-white fill-white" />
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#141B2D] to-[#08090B] border border-blue-500/40 p-1 flex items-center justify-center shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:shadow-[0_0_20px_rgba(34,211,238,0.7)] group-hover:border-cyan-400 transition-all">
+              <svg viewBox="0 0 64 64" className="w-full h-full" fill="none">
+                <path 
+                  d="M 44 18 H 22 C 18 18 15 21 15 25 C 15 29 18 32 23 33 L 41 36 C 46 37 49 40 49 44 C 49 48 46 51 42 51 H 20" 
+                  stroke="#38BDF8" 
+                  strokeWidth="6" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                />
+                <path 
+                  d="M 36 21 L 24 37 H 34 L 28 47" 
+                  stroke="#FFFFFF" 
+                  strokeWidth="2.5" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                />
+                <circle cx="44" cy="18" r="3" fill="#22D3EE"/>
+                <circle cx="20" cy="51" r="3" fill="#3B82F6"/>
+              </svg>
             </div>
             <div className="flex flex-col">
               <span className="font-display text-xl sm:text-2xl text-white tracking-wider leading-none group-hover:text-cyan-400 transition-colors">
